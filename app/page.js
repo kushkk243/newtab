@@ -46,7 +46,7 @@ export default function Home() {
     return () => clearInterval(interval);
   }, []);
   return (
-    <div className={` ${urbanist.className} justify-center items-center h-screen snap-y snap-mandatory overflow-y-scroll`}>
+    <div className={` ${urbanist.className} justify-center items-center h-screen snap-y snap-mandatory overflow-y-scroll no-scrollbar`}>
       <section className=" justify-center items-center flex flex-col h-screen snap-start" id="main_section">
       <header className="flex-1/12 justify-center items-center top-0">
         <div className="text-[96px] font-semibold uppercase">Good {tod[time]} </div>
